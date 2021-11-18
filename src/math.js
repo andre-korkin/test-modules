@@ -1,20 +1,20 @@
-function square(num) {
+export function square(num) {
 	return num ** 2;
 }
 
-function cube(num) {
+export function cube(num) {
 	return num ** 3;
 }
 
-function avg(arr) {
+export function avg(arr) {
 	return sum(arr, 1) / arr.length;
 }
 
-function digitsSum(num) {
+export function digitsSum(num) {
 	return sum(String(num).split(''));
 }
 
-module.exports = {square, cube, avg, digitsSum}
+// module.exports = {square, cube, avg, digitsSum}
 
 
 // вспомогательная функция
